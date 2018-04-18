@@ -83,7 +83,7 @@ class AcadResults: public Student, public PrintData {
 };
 
 int main() {
-	AcadResults result("17.11.1123", "Alfin Keren", "M", 3.25, 36); // Deklarasi object yang mereference dari class AcadResult dengan memasukan parameter NIM, Nama, Genger, IPK, dan SKS
+	AcadResults result("17.11.1123", "Alfin Keren", "M", 4.00, 36); // Deklarasi object yang mereference dari class AcadResult dengan memasukan parameter NIM, Nama, Genger, IPK, dan SKS
 	result.printOutput(result.getName()); // Pemanggilan object result dengan nama method PrintOut yang mana adalah milik kelas PrintData yang sifatnya telah diwariskan, dan mengoper parameter getName dengan tipe data string yang mana milik kelas Student yang telah diwariskan
 	result.printOutput(result.getIpk()); // Pemanggilan object result dengan nama method PrintOut yang mana adalah milik kelas PrintData yang sifatnya telah diwariskan, dan mengoper parameter getIpk dengan tipe data float yang mana milik kelas AcadResult itu sendiri
 	
